@@ -1,0 +1,23 @@
+# 79Club Automation Suite
+
+## Install
+npm install
+
+## Run Web Tests
+npx playwright test tests/web.spec.js
+
+## Run API Tests
+npx playwright test tests/api.spec.js
+
+## Run Appium Tests
+appium
+npx wdio run wdio.conf.js
+
+##latency_test.js
+node latency_test.js
+
+##perf_test_k6.js
+k6 run perf_test_k6.js
+
+## Reports
+npx playwright show-report
